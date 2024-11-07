@@ -9,7 +9,7 @@ mod transfer;
 
 pub use interface::{Block, Interface};
 
-pub const BLOCK_LENGTH: usize = 2048;
+pub const BLOCK_LENGTH: usize = 4096;
 pub const HALF_DMA_BUFFER_LENGTH: usize = BLOCK_LENGTH * 2; // 2 channels
 pub const DMA_BUFFER_LENGTH: usize = HALF_DMA_BUFFER_LENGTH * 2; // 2 half-blocks
 
